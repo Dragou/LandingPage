@@ -1,0 +1,54 @@
+#header, #content{
+	height: 400px;
+}
+
+#header{
+	background: url("../ressources/header.png") no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+	color: white;
+}
+
+#slogan{
+	margin-top: 110px;
+}
+
+#content{
+	margin-top: 100px;
+	margin-bottom: 120px;
+}
+
+#footer{
+	height: 100px
+}
+
+#pins{
+	height: 350px;
+	background-image: url("../ressources/Pins.jpg");
+	background-size: cover;
+	background-position: 50% 75%;
+	background-color: purple;
+}
+
+#pin{
+	margin-top: 50px;
+	color: white;
+}
+
+#textInfo{
+	margin-top: 50px;
+}
+
+#phone{
+	height: 400px;
+	margin-right: 75px;
+}
+
+@media (min-width: @screen-xs-min) and (max-width: @screen-xs-max) { 
+	#pins{
+		height: 600px;
+	} 
+}
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {  }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {  }
+@media (min-width: @screen-lg-min) {  }	
